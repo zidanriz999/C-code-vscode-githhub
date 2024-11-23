@@ -1,21 +1,21 @@
 #include<stdio.h>
 int main (){
     int a[7]={-1,5,12,5,9,11,2};
-    int c=0,i,num=50;
+    int count=0,i;
     for(i=0;i<=6;i++){
-        if(a[i]==num)
+        if(a[i]==50)
 
      {
        printf("%d",i);
-        c++;          
+        count++;          
      }
      
 
     }
-      if(c==0)
-      {
-         printf("Not Found\n");
-      }
+    if(count==0)
+     {
+        printf("Not Found\n");
+     }
 
 
 
