@@ -14,5 +14,5 @@ int main(){
  s3[i]='\0';
  printf("%s\n\n",s3);
 
-    return 0;
+
 }
