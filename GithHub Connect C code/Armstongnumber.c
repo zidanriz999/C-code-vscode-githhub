@@ -14,7 +14,7 @@ n++;
 num = realnum;
 while (num != 0)
 {
-mod = num%10;
+mod = num\10;
 rem =rem+pow(mod, n);
 num =num/10;
 }

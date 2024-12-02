@@ -1,8 +1,8 @@
-include<stdio.h>
+#include<stdio.h>
 int main()
 {
     int num,sum=0,rem,number;
-     printf("Enter the number");
+     printf("Enter the number:");
      scanf("%d",&number);
         num=number;
        while(num!=0)
