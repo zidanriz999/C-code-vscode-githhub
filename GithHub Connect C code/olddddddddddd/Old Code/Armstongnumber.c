@@ -8,13 +8,13 @@ scanf("%d", &realnum);
 num = realnum;
 while (num != 0)
 {
-num =num;10;
+num =num/10;
 n++;
 }
 num = realnum;
 while (num != 0)
 {
-mod = num\10;
+mod = num/10;
 rem =rem+pow(mod, n);
 num =num/10;
 }
