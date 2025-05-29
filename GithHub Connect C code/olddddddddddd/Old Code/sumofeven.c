@@ -14,3 +14,25 @@ int main(){
 
     return 0;
 }
+
+
+
+#include <stdio.h>
+
+int main() {
+    int sum = 0, c = 0;
+    float avg;
+    for (int i = 2; i <= 31; i++) {
+        if (i % 2 == 1) {
+            printf("%d\t",i);
+            sum =sum + i;
+            c++;
+        }
+       
+    }
+    avg=sum/c;
+     printf ("\nCount %d",c);
+    printf ("\nSummation %d",sum);
+    printf("\nAverage of even numbers between 10 and 25 is: %.2f\n", avg);
+    return 0;
+}
