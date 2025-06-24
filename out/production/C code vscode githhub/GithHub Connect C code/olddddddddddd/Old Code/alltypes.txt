@@ -1,0 +1,25 @@
+CRTL+i=BlackboxAI
+skeletion of C
+play with prientf C
+Data type and variables
+C operators eith examples
+Run type input scanf%d 
+Condition if else(larger,EVEN & ODD,Break & Continue)
+Condition Nested if (else if)
+Find Even number and odd number (scanf,if else,(Loop))
+Loop- for Loop(even and odd number)
+Nested loop i++ j++ 2 loops use
+Find the minimum,(minimum-maximum number) among 3 numbers
+Find the error of the following code
+{Find Even number and odd number also calculate summanation ,average,multipication 
+between 10-50(scanf,if else,Loop)}
+Fibonacci series(for loop 15th series output )(scanf 1000 er moddhy all series output)
+Prime number(for ,if,break,flag)
+prime number (scanf)
+Array (for , if else) (take 10 values of array to print summatiom)
+Array (for , if else) (take 10 values of array to print maximum and minimum)
+Array (for , if else) (take 10 values of array to print maximum)
+Array (for , if else) (take 10 values of array to print even &odd number)
+
+
+
