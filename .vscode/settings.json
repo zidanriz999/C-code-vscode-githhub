@@ -1,5 +1,5 @@
 {
-  "dbt.queryLimit": 499,
+  "dbt.queryLimit": 504,
   "files.associations": {
     "stdio.h": "c",
     "cctype": "cpp",
