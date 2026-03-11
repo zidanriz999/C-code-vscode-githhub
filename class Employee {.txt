@@ -1,0 +1,54 @@
+class Employee {
+    String name;
+    int id;
+    double salary;
+
+    Employee(String name, int id, double salary) {
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
+    }
+
+    public String toString() {
+        return "Name: " + name + ", ID: " + id + ", Salary: " + salary;
+    }
+}
+
+class Manager extends Employee {
+    String department;
+
+    Manager(String name, int id, double salary, String department) {
+        super(name, id, salary);
+        this.department = department;
+    }
+
+    public String toString() {
+        return super.toString() + ", Department: " + department;
+    }
+}
+
+class Executive extends Manager {
+    double bonus;
+
+    Executive(String name, int id, double salary, String department, double bonus) {
+        super(name, id, salary, department);
+        this.bonus = bonus;
+    }
+
+    public String toString() {
+        return super.toString() + ", Bonus: " + bonus;
+    }
+}
+
+public class Plm_01 {
+    public static void main(String[] args) {
+
+        Employee e1 = new Employee("ZIDAN", 110, 150000);
+        Manager m1 = new Manager("HEMEL", 132, 50000, "UI/UX");
+        Executive ex1 = new Executive("REDOY", 107, 60000, "DEVOLOPER", 20000);
+
+        System.out.println(e1);
+        System.out.println(m1);
+        System.out.println(ex1);
+    }
+}
