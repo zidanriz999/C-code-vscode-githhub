@@ -6,10 +6,10 @@ int main(){
 
     printf("Enter the value of y: ");
     scanf("%d",&y);
-
+  
     if(x > y)
     {
-        printf("X is greater than Y\n");
+        printf("X is greater than Y\n");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
     }
     else if (x < y)
     {
